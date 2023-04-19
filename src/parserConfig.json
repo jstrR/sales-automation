@@ -1,0 +1,111 @@
+{
+  "cron": "0 * * * *",
+  "timebase": {
+    "usersFilterOccupations": "Partner, Managing Partner, Associate Partner, Associate Partner (leave)"
+  },
+  "sites": {
+    "projects.it-outstaffing": [
+      "#lookfor",
+      "#hiring",
+      "#looking",
+      "looking",
+      "looking for",
+      "ищем",
+      "требуются"
+    ]
+  },
+  "tg": {
+    "vacanciesNumber": 20,
+    "channels": {
+      "BoardOutsource": [
+        "#lookfor",
+        "#hiring",
+        "#looking",
+        "looking",
+        "looking for",
+        "ищем",
+        "требуются"
+      ],
+      "it_outsource": [
+        "#lookfor",
+        "#hiring",
+        "#looking",
+        "looking",
+        "looking for",
+        "ищем",
+        "требуются"
+      ],
+      "bicc_exchange": [
+        "#lookfor",
+        "#hiring",
+        "#looking",
+        "looking",
+        "looking for",
+        "ищем",
+        "требуются"
+      ],
+      "-1001373382333": [
+        "#lookfor",
+        "#hiring",
+        "#looking",
+        "looking",
+        "looking for",
+        "ищем",
+        "требуются"
+      ],
+      "Outstaff_it_bot": [
+        "#lookfor",
+        "#hiring",
+        "#looking",
+        "looking",
+        "looking for",
+        "ищем",
+        "требуются"
+      ],
+      "aog_remote": [
+        "#lookfor",
+        "#hiring",
+        "#looking",
+        "looking",
+        "looking for",
+        "ищем",
+        "требуются"
+      ],
+      "it_outstaff": [
+        "#lookfor",
+        "#hiring",
+        "#looking",
+        "looking",
+        "looking for",
+        "ищем",
+        "требуются"
+      ]
+    }
+  },
+  "rates": {
+    "matchmakePosition": 1,
+    "matchmakeGroup": 3,
+    "matchmakeKeySectors": 0.1,
+    "matchmakeFunctionalExpertise": 0.1,
+    "matchmakeSkills": 3,
+    "matchmakeEnglish": 0
+  },
+  "positionsMapping": {
+    "php":["PHP", "Wordpress", "SlimPHP", "Laravel", "Symfony","Codeigniter","Phalcon","CakePHP","Yii", "FuelPHP","PHPPixie","Zend"],
+    "nodejs":["nodejs", "node.js"],
+    "nest":["nestjs", "nest.js"],
+    "express":["express", "expressjs", "express.js"],
+    "react": ["ReactJs", "React.js"],
+    "react native": ["ReactNative"],
+    "vue":["vuejs", "vue.js", "vue"],
+    "next": ["next.js", "nextjs"],
+    "user interface": ["ux"],
+    "user experience": ["ui"],
+    "database":["MongoDB","PostgreSQL","MySQL","Percona","Neo4js","ClickHouse","Firebase"],
+    "python":["Django","CherryPy","Pyramid","Flask","Bottle","Tornado","Grok","BlueBeam"],
+    "java":["spring"],
+    "css":["Bootstrap","TailwindCSS","Ant","MUI"],
+    "ios":["Swift","Objective-C","Xamarin","ReactNative","Ionic"],
+    "android":["Kotlin","ReactNative","Xamarin","Ionic"]
+  }
+}
